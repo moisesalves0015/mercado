@@ -20,7 +20,7 @@ export function Shelf({ category, products, onAddProduct }: ShelfProps) {
   const icon = CATEGORY_ICONS[category];
 
   return (
-    <div className="mx-4 mb-6" style={{
+    <div className="mx-4 mb-1" style={{
       background: 'rgba(130, 201, 30, 0.24)',
       borderRadius: '16px',
       boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
@@ -43,8 +43,8 @@ export function Shelf({ category, products, onAddProduct }: ShelfProps) {
 
       <div className="relative mx-1">
         {/* The Recessed Shelf Container */}
-        <div className="shelf-container rounded-none pb-0 px-0 shadow-2xl border-y border-white/5 overflow-y-hidden mb-1">
-          <div className="flex gap-0 overflow-x-auto custom-scrollbar scroll-smooth snap-x snap-mandatory relative z-10 pb-1">
+        <div className="shelf-container rounded-none pb-0 px-0 shadow-2xl border-y border-white/5 overflow-y-hidden mb-0">
+          <div className="flex gap-0 overflow-x-auto custom-scrollbar scroll-smooth snap-x snap-mandatory relative z-10 pb-0.5">
             {products.map((product) => (
               <div key={product.id} className="snap-start shrink-0">
                 <ProductCard product={product} onAdd={onAddProduct} />

@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     id: "f1",
     name: "Arroz Tio João 5kg",
     price: 22.90,
-    image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?q=80&w=200&auto=format&fit=crop",
+    image: "/products/arroz.png",
     category: Category.ALIMENTOS,
     unit: "pct"
   },
@@ -77,7 +77,7 @@ export const PRODUCTS: Product[] = [
     id: "f2",
     name: "Feijão Kicaldo 1kg",
     price: 8.49,
-    image: "https://images.unsplash.com/photo-1551462147-3a88236b3014?q=80&w=200&auto=format&fit=crop",
+    image: "/products/feijao.png",
     category: Category.ALIMENTOS,
     unit: "pct"
   },
@@ -85,7 +85,7 @@ export const PRODUCTS: Product[] = [
     id: "f3",
     name: "Macarrão Espaguete 500g",
     price: 4.49,
-    image: "https://images.unsplash.com/photo-1551462147-ff29053fad67?q=80&w=200&auto=format&fit=crop",
+    image: "/products/macarrao.png",
     category: Category.ALIMENTOS,
     unit: "un"
   },
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     id: "f4",
     name: "Molho de Tomate Fugini",
     price: 2.79,
-    image: "https://images.unsplash.com/photo-1620706857370-e1b977fd7360?q=80&w=200&auto=format&fit=crop",
+    image: "/products/molho_tomate.png",
     category: Category.ALIMENTOS,
     unit: "un"
   },
@@ -101,7 +101,7 @@ export const PRODUCTS: Product[] = [
     id: "f5",
     name: "Óleo de Soja Liza 900ml",
     price: 7.49,
-    image: "https://images.unsplash.com/photo-1474979266404-7eaacbacf84c?q=80&w=200&auto=format&fit=crop",
+    image: "/products/oleo.png",
     category: Category.ALIMENTOS,
     unit: "un"
   },

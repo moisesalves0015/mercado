@@ -101,7 +101,7 @@ export default function App() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="space-y-6"
+              className="space-y-0"
             >
               {shelves.map(([category, products]) => (
                 <Shelf
